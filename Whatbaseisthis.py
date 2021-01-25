@@ -10,8 +10,7 @@ p = remote("2018shell.picoctf.com",1225)
   #python3 -m pip install --upgrade pip
   #python3 -m pip install --upgrade pwntools
 '''
-# https://lnsideout.tistory.com/entry/PYTHON-%ED%8C%8C%EC%9D%B4%EC%8D%AC-10%EC%A7%84%EC%88%98-%EB%B3%80%ED%99%982%EC%A7%84%EC%88%988%EC%A7%84%EC%88%9816%EC%A7%84%EC%88%98" 정규표현식
-# https://frhyme.github.io/python-lib/binary_str_to_str/ : 바이너리 디코딩
+
 
 temp = p.recv().decode()
 print(temp)
