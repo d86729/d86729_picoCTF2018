@@ -15,8 +15,8 @@ def asm2(param_1, param_2): # push   	ebp
 
     eax = local_1           # mov    	eax,DWORD PTR [ebp-0x4]
     return eax              # mov		  esp,ebp
-	                          # pop		  ebp
-	                          # ret
+	                    # pop		  ebp
+	                    # ret
 
 
 print(hex(asm2(0xe, 0x21)))
